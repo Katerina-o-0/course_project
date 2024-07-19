@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header header-main">
+        <div class="container">
+          <div class="header__inner">
+            <a href="index.html" class="logo">
+              <img src="img/logo.svg" alt="" class="logo__img" />
+            </a>
+            <nav class="menu">
+              <button class="menu__btn">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+              <ul class="menu__list">
+                <li class="menu__list-item">
+                  <a href="newcar.html" class="menu__list-link"
+                    >НОВЫЕ АВТОМОБИЛИ</a
+                  >
+                </li>
+                <li class="menu__list-item">
+                  <a href="#" class="menu__list-link">ПОДЕРЖАННЫЕ АВТОМОБИЛИ</a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="#" class="menu__list-link">ФИНАНСЫ</a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="#" class="menu__list-link">АРЕНДА/ПОКУПКИ</a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="contacts.html" class="menu__list-link">КОНТАКТЫ</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="top">
+          <div class="container">
+            <h1 class="title">Лизинг от D&M</h1>
+            <a href="newcar.html" class="top__link">НАЙТИ МАШИНУ</a>
+          </div>
+        </section>
+        <div class="slider">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div
+                class="swiper-slide"
+                style="background-image: url(img/slide-1.jpg)"
+              ></div>
+              <div
+                class="swiper-slide"
+                style="background-image: url(img/slide-2.jpg)"
+              ></div>
+              <div
+                class="swiper-slide"
+                style="background-image: url(img/slide-1.jpg)"
+              ></div>
+              <div
+                class="swiper-slide"
+                style="background-image: url(img/slide-2.jpg)"
+              ></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <section class="why-lease">
+          <div class="container">
+            <h2 class="section-title">Почему арендовать у D&M?</h2>
+            <ul class="why-lease__list">
+              <li class="why-lease__item">
+                <img
+                  class="why-lease__item-img"
+                  src="img/why-lease-1.svg"
+                  alt=""
+                />
+                <h3 class="why-lease__item-title">Ведущие Дилеры</h3>
+                <p class="why-lease__item-text">
+                  Сертифицированные дилеры TrueCar конкурируют за ваш бизнес,
+                  предоставляя скидки на товары, имеющиеся на складе.
+                </p>
+              </li>
+              <li class="why-lease__item">
+                <img
+                  class="why-lease__item-img"
+                  src="img/why-lease-2.svg"
+                  alt=""
+                />
+                <h3 class="why-lease__item-title">Цены со скидкой</h3>
+                <p class="why-lease__item-text">
+                  Изучите предложения не выходя из дома и получите доступ к
+                  гарантированной экономии на автомобили по вашему выбору.
+                </p>
+              </li>
+              <li class="why-lease__item">
+                <img
+                  class="why-lease__item-img"
+                  src="img/why-lease-3.svg"
+                  alt=""
+                />
+                <h3 class="why-lease__item-title">Низкие платежи</h3>
+                <p class="why-lease__item-text">
+                  Приобретая легковой или грузовой автомобиль с помощью TrueCar,
+                  вы получаете скидку и экономите на арендной плате.
+                </p>
+              </li>
+              <li class="why-lease__item">
+                <img
+                  class="why-lease__item-img"
+                  src="img/why-lease-4.svg"
+                  alt=""
+                />
+                <h3 class="why-lease__item-title">Простое обновление</h3>
+                <p class="why-lease__item-text">
+                  Если вы хотите комфорта и быть современным, то каждые
+                  несколько лет можете легко переходить на новейшую модель
+                  автомобиля
+                </p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="how-does">
+          <div class="container">
+            <div class="how-does__inner">
+              <h2 class="section-title">Как работает лизинг?</h2>
+              <p class="how-does__text">
+                Аренда транспортного средства - это, по сути, заключение
+                договора долгосрочной аренды этого транспортного средства. В
+                отличие от традиционной покупки автомобиля, вы фактически не
+                являетесь его владельцем. Вместо этого лизинговая компания
+                приобретает автомобиль у дилера от вашего имени, а затем вы
+                производите ежемесячные платежи лизинговой компании в течение
+                всего срока аренды. Однако некоторые договоры аренды
+                предоставляют возможность приобрести автомобиль в конце срока
+                аренды.
+              </p>
+              <h4 class="how-does__title">
+                Как и при краткосрочной аренде автомобиля, существуют правила,
+                которые определяют:
+              </h4>
+              <ol class="how__does-list">
+                <li class="how__does-item">
+                  Сколько вы можете проехать, указано в виде годовых км (лишние
+                  мили начисляются по указанному тарифу).
+                </li>
+                <li class="how__does-item">
+                  Виды ущерба, за который вы можете нести ответственность в
+                  конце срока аренды
+                </li>
+                <li class="how__does-item">
+                  Процедуры и расходы при возврате транспортного средства в
+                  конце срока аренды
+                </li>
+              </ol>
+              <p class="how-does__text">
+                Договоры аренды - это обязательства, и досрочное расторжение их
+                может быть трудным и дорогостоящим делом, поэтому важно
+                тщательно взвесить ваши обстоятельства, прежде чем принимать
+                решение.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="video">
+          <div class="container">
+            <h2 class="section-title video__title">Добро пожаловать в D&M</h2>
+            <p class="video__text">
+              Узнайте, насколько просто взять в аренду у D&M
+            </p>
+            <iframe
+              class="video__content"
+              width="1000"
+              height="500"
+              src="https://www.youtube.com/embed/l5c4-9rxwhA?si=jY-FbrAp-Fexpdjj&amp;controls=0"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </section>
+        <section class="important">
+          <div class="container">
+            <h2 class="section-title important__title">
+              Важные вещи, которые следует учитывать
+            </h2>
+            <p class="important__text">
+              В зависимости от ваших обстоятельств и того, что для вас важно,
+              аренда автомобиля может стать отличным вариантом для вашего
+              следующего автомобиля. Ниже приведены некоторые важные факторы,
+              которые могут повлиять на ваше решение.
+            </p>
+            <ul class="important__list">
+              <li class="important__item">
+                <img class="important__item-img" src="img/imp-1.jpg" alt="" />
+                <p class="important__item-text">
+                  Ежемесячные платежи по договорам аренды, как правило, на
+                  20-30% дешевле, чем по кредитам
+                </p>
+              </li>
+              <li class="important__item">
+                <img class="important__item-img" src="img/imp-2.jpg" alt="" />
+                <p class="important__item-text">
+                  Вы можете иметь право на налоговую льготу, если используете
+                  арендованный автомобиль в деловых целях
+                </p>
+              </li>
+              <li class="important__item">
+                <img class="important__item-img" src="img/imp-3.jpg" alt="" />
+                <p class="important__item-text">
+                  Легко обновляется до новейшей модели автомобиля каждые
+                  несколько лет
+                </p>
+              </li>
+              <li class="important__item">
+                <img class="important__item-img" src="img/imp-4.jpg" alt="" />
+                <p class="important__item-text">
+                  Часто взимаются сборы, если вы ездите на автомобиле с
+                  пробегом, превышающим допустимый для аренды пробег
+                </p>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <nav class="footer__menu">
+          <ul class="footer__menu-list">
+            <li class="footer__menu-item">
+              <p class="footer__menu-title">Товары</p>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Подержанные</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Новые</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Продай свою машину</a>
+            </li>
+          </ul>
+          <ul class="footer__menu-list">
+            <li class="footer__menu-item">
+              <p class="footer__menu-title">Ресурсы</p>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Блог</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">FAQ</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Свяжитесь с нами</a>
+            </li>
+          </ul>
+          <ul class="footer__menu-list">
+            <li class="footer__menu-item">
+              <p class="footer__menu-title">Работайте с нами</p>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Поставщики</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Партнеры</a>
+            </li>
+          </ul>
+          <ul class="footer__menu-list">
+            <li class="footer__menu-item">
+              <p class="footer__menu-title">Информация</p>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">О нас</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Наша команда</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Карьера</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="app">
+          <li class="app__item">
+            <a href="" class="app__item-link">
+              <img src="img/appstore.svg" alt="" class="app__item-img" />
+            </a>
+          </li>
+          <li class="app__item">
+            <a href="" class="app__item-link">
+              <img src="img/googleplay.svg" alt="" class="app__item-img" />
+            </a>
+          </li>
+        </ul>
+        <div class="footer__copy">
+          <p class="footer__copy-text">
+            По вопросам, связанным с услугой покупки автомобилей TrueCar,
+            обращайтесь по телефону 8-888-878-3227. Компания TrueCar обязывает
+            сертифицированных дилеров соответствовать определенным требованиям к
+            обслуживанию клиентов и пройти программу сертификации дилеров
+            TrueCar.
+          </p>
+          <p class="footer__copy-text">
+            TrueCar не занимается брокерской деятельностью, продажей или арендой
+            автотранспортных средств. Если не указано иное, все транспортные
+            средства, представленные на этом веб-сайте, выставлены на продажу
+            лицензированными дилерами автотранспортных средств. Все транспортные
+            средства подлежат предварительной продаже. Заходя на этот веб-сайт,
+            вы соглашаетесь с Условиями предоставления услуг TrueCar и Политикой
+            конфиденциальности.
+          </p>
+        </div>
+        <nav class="copy__nav">
+          <ul class="copy__nav-list">
+            <li class="copy__nav-item">
+              <a href="#" class="copy__nav-link">Условия обслуживания</a>
+            </li>
+            <li class="copy__nav-item">
+              <a href="#" class="copy__nav-link">Политика конфиденциальности</a>
+            </li>
+            <li class="copy__nav-item">
+              <a href="#" class="copy__nav-link">
+                Не продавайте мою личную информацию</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
